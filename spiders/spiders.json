@@ -1,0 +1,48 @@
+[
+
+{
+	"primary color": "Black",
+	"secondary color": "Red",
+	"State": "Everywhere",
+	"name": "Black Widow",
+	"imageURL": "images/Black Widow.jpg",
+	"blurb": "Unlikely to go out of their way to bite you. So dont go poking them with your fingers",
+	"link": "http://www.insectidentification.org/insect-description.asp?identification=Southern-Black-Widow",
+}
+{
+	"primary color": "Black",
+	"secondary color": "Yellow",
+	"State": "Eveywhere",
+	"name": "Black and Yellow garden spider",
+	"imageURL": "images/black and yellow.jpg",
+	"blurb": "Females can be up to 4 times larger than males. Also called Common Garden Spider",
+	"link": "http://www.insectidentification.org/insect-description.asp?identification=Black-and-Yellow-Garden-Spider",
+}
+{
+	"primary color": "White",
+	"secondary color": "Red",
+	"State": "Everywhere",
+	"name": "Spiny Backed Orb Weaver",
+	"imageURL": "images/spinyBackedOW.jpg",
+	"blurb": "The thorns help keep predators away",
+	"link": "http://www.insectidentification.org/insect-description.asp?identification=Spiny-Backed-Orb-Weaver",
+}
+{
+	"primary color": "Brown",
+	"secondary color": "Tan",
+	"State": "Everywhere",
+	"name": "Common House Spider",
+	"imageURL": "images/common-house-spiders.png",
+	"blurb": "Most common house spider in North America. ALso known as Comb-Clawed-Spider",
+	"link": "http://www.insectidentification.org/insect-description.asp?identification=Comb-Clawed-Spider",
+}
+{
+	"primary color": "Gray",
+	"secondary color": "White",
+	"State": "Everywhere",
+	"name": "North American Jumping Spider",
+	"imageURL": "images/jumping spider.jpg",
+	"blurb": "Jumps 3 to 4 times its body length without a running start",
+	"link": "http://www.insectidentification.org/insect-description.asp?identification=North-American-Jumping-Spider",
+}
+]
