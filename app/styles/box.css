@@ -1,0 +1,15 @@
+.searchMenu {
+    width: 250px;
+    height: 350px;
+    border: 2px solid;
+    margin: 0 auto;
+    background-color: #cd6b00;
+}
+/*search div appearance*/
+form div {
+    text-align: center;
+}
+
+body {
+    font-size: 20px;
+}
