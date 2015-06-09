@@ -1,0 +1,15 @@
+<<<<<<< HEAD:css/main.css
+=======
+.searchMenu {
+    width: 250px;
+    height: 350px;
+    border: 2px solid;
+    margin: 0 auto;
+    background-color: #cd6b00;
+}
+/*search div appearance*/
+form div {
+    text-align: center;
+}
+>>>>>>> e7a5424f616b8931f3490230b6d0fa925eca27cb:app/styles/box.css
+
