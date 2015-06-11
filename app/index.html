@@ -85,30 +85,35 @@
                 <option value="Louisiana">Louisiana</option>
                 <option value="Mississippi">Mississippi</option>
             </select>
+            <!--  insert button here
+            <div class="btn btn-default"></div> -->
         </div>
     </form>
-     <div class="container">
--        <div ng-view=""></div>
--    </div>
-
-
+    <div class="container">
+        <div ng-view="">
+        </div>
+    </div>
+    <div class="container">
+        <div id="arachnid">
+            <p>suck it bitches</p>
+        </div>
+    </div>
+    
     <!--<div class="footer">
       <div class="container">
         <p><span class="glyphicon glyphicon-heart"></span> from the Yeoman team</p>
       </div>
     </div>-->
-
-
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID 
      <script>
-=======
+
     <div class="footer">
         <div class="container">
             <p><span class="glyphicon glyphicon-heart"></span> from the Yeoman team</p>
         </div>
     </div>
-    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID -->
-    <!--
+    Google Analytics: change UA-XXXXX-X to be your site's ID 
+    
      <script>
 
        !function(A,n,g,u,l,a,r){A.GoogleAnalyticsObject=l,A[l]=A[l]||function(){
@@ -121,10 +126,9 @@
        ga('send', 'pageview');
     </script> 
 
-=======
+
       ga('send', 'pageview');  -->
-    
-    </script>
+    <!-- </script> -->
     <!-- build:js(.) scripts/vendor.js -->
     <!-- bower:js -->
     <script src="bower_components/jquery/dist/jquery.js"></script>
@@ -139,6 +143,7 @@
     <!-- endbower -->
     <!-- endbuild -->
     <!-- build:js({.tmp,app}) scripts/scripts.js -->
+    <script src="scripts/controllers/ajax.js"></script>
     <script src="scripts/app.js"></script>
     <script src="scripts/controllers/main.js"></script>
     <script src="scripts/controllers/about.js"></script>
