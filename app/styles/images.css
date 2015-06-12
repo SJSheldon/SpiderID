@@ -1,0 +1,9 @@
+#limit { 
+	min-height:10px;
+  height:auto !important;
+  height:72px;
+
+}
+$("#limit").css({
+    height:$("#div").height(72px)
+});

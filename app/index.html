@@ -13,9 +13,9 @@
     <!-- endbuild -->
     <!-- build:css(.tmp) styles/main.css -->
     <link rel="stylesheet" href="styles/main.css">
-    <!-- endbuild -->
     <link rel="stylesheet" href="styles/box.css" />
     <!--^drop down box style^-->
+    <!-- <link rel="stylesheet" href="styles/images.css" /> -->
     <script src="bower_components/jquery/dist/jquery.js"></script>
     <script src="bower_components/angular/angular.js"></script>
     <script src="bower_components/bootstrap-sass-official/assets/javascripts/bootstrap.js"></script>
@@ -23,9 +23,10 @@
     <script src="bower_components/angular-route/angular-route.js"></script>
     <script src="scripts/controllers/main.js"></script>
     <script src="scripts/controllers/scripts.js"></script>
+    <script src="scripts/controllers/about.js"></script>
 </head>
 
-<body >
+<body>
     <!-- Add your site or application content here -->
     <div class="header">
         <div class="navbar navbar-default" role="navigation">
@@ -43,7 +44,7 @@
                     <ul class="nav navbar-nav">
                         <li class="active"><a href="#/">Home</a></li>
                         <li><a ng-href="#/about">About</a></li>
-                        <li><a ng-href="#/">Contact</a></li>
+                        <!-- <li><a ng-href="#/">Contact</a></li> -->
                     </ul>
                 </div>
             </div>
@@ -54,7 +55,7 @@
         <form class="searchMenu" ng-submit="search()">
             <div id="primaryColor">
                 <p>Primary Color</p>
-                <select class="menu" type="text" ng-model="primaryColor">
+                <select type="text" ng-model="primaryColor">
                     <!--  add more colors -->
                     <option value="Black">Black</option>
                     <option value="Brown">Brown</option>
@@ -68,7 +69,7 @@
             </div>
             <div id="secondaryColor">
                 <p>Secondary Color</p>
-                <select class="menu" type="text" ng-model="secondaryColor">
+                <select type="text" ng-model="secondaryColor">
                     <!-- add more colors -->
                     <option value="Red">Red</option>
                     <option value="Brown">Brown</option>
@@ -96,15 +97,22 @@
                  insert button here 
             </div> -->
             <div>
-                <button class="btn btn-default" type="submit" value="Search">Find out</button>
+            <!-- ng-click="getSpider"  -->
+                <button class="btn btn-default" type="submit" value="Search">Will it bit me?</button>
             </div>
         </form>
         <div>
-            Results:
-            <ul>
+            
+            <ul class="thumbnail" id="limit">
+
                 <!-- assuming our search returns an array of users matching the search -->
-                <li ng-repeat="name in spiders">
-                    
+                <li ng-repeat="spider in spiders | filter:query | orderBy:orderProp">
+                <p>Probably not, but dont touch it!</p>
+                    <p><img ng-src="{{spider.imageURL}}"/></p>
+                    <a href="{{spider.link}}" target="_blank"> {{spider.name}}</a>
+                    <p>{{spider.blurb}}</p>
+                    <!-- make it spit back a link as well -->
+                    <!-- <p>{{spider.link}}</p> -->
                 </li>
             </ul>
         </div>
@@ -119,7 +127,6 @@
             <p><b></b></p>
         </div>
     </div>
-    
 </body>
 
 </html>
