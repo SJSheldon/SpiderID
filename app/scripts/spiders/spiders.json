@@ -7,6 +7,36 @@
         "imageURL": "images/Black Widow.jpg",
         "blurb": "Unlikely to go out of their way to bite you. So dont go poking them with your fingers.",
         "link": "https://en.wikipedia.org/wiki/Latrodectus"
+    },
+    {
+
+        "name": "Black and Yellow garden spider",
+        "primaryColor": "Black",
+        "secondaryColor": "Yellow",
+        "imageURL": "images/black and yellow.jpg",
+        "blurb": "Females can be up to 4 times larger than males. Also called Common Garden Spider",
+        "link": "http://www.insectidentification.org/insect-description.asp?identification=Black-and-Yellow-Garden-Spider"
+    }, {
+        "name": "Spiny Backed Orb Weaver",
+        "primaryColor": "White",
+        "secondaryColor": "Red",
+        "imageURL": "images/spinyBackedOW.jpg",
+        "blurb": "The thorns help keep predators away",
+        "link": "http://www.insectidentification.org/insect-description.asp?identification=Spiny-Backed-Orb-Weaver"
+    }, {
+        "name": "Common House Spider",
+        "primaryColor": "Brown",
+        "secondaryColor": "Tan",
+        "imageURL": "images/common-house-spiders.png",
+        "blurb": "Most common house spider in North America. ALso known as Comb-Clawed-Spider",
+        "link": "http://www.insectidentification.org/insect-description.asp?identification=Comb-Clawed-Spider"
+    }, {
+        "name": "North American Jumping Spider",
+        "primaryColor": "Gray",
+        "secondaryColor": "White",
+        "imageURL": "images/jumping spider.jpg",
+        "blurb": "Jumps 3 to 4 times its body length without a running start",
+        "link": "http://www.insectidentification.org/insect-description.asp?identification=North-American-Jumping-Spider"
     }
     ]
 
